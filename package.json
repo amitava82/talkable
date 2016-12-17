@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "webpack:prod": "cross-env NODE_ENV=production webpack -p",
-    "deploy": "npm run webpack:prod && firebase deploy"
+    "deploy": "npm run webpack:prod && firebase deploy",
+    "dev": "webpack && node server"
   },
   "author": "Amitava Saha <amitava82@gmail.com> (https://github.com/amitava82)",
   "license": "MIT",

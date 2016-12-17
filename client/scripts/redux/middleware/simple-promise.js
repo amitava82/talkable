@@ -1,5 +1,4 @@
 import { isFSA } from 'flux-standard-action';
-import Promise from 'bluebird';
 
 import {API_ERROR_TYPE, RESET_API_ERROR} from '../../constants';
 

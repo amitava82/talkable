@@ -17,3 +17,13 @@ Functionality:
 * Redux
 * Material-UI
 *
+
+### Run locally
+```
+npm install
+npm run dev
+```
+open http://localhost:8080
+
+### License
+MIT

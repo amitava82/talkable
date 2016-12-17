@@ -1,0 +1,43 @@
+{
+  "name": "fire-chat",
+  "version": "0.0.1",
+  "description": "A chat app built on Firebase",
+  "main": "server.js",
+  "scripts": {
+    "webpack:prod": "cross-env NODE_ENV=production webpack -p",
+    "deploy": "npm run webpack:prod && firebase deploy"
+  },
+  "author": "Amitava Saha <amitava82@gmail.com> (https://github.com/amitava82)",
+  "license": "MIT",
+  "dependencies": {
+    "autobind-decorator": "^1.3.3",
+    "babel-core": "^6.4.5",
+    "babel-register": "^6.4.3",
+    "firebase": "latest",
+    "flux-standard-action": "^0.6.1",
+    "lodash": "^4.0.1",
+    "material-ui": "latest",
+    "radium": "latest",
+    "randomcolor": "^0.4.4",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-redux": "^4.1.2",
+    "react-tap-event-plugin": "latest",
+    "react-timeago": "^3.0.0",
+    "redux": "^3.1.5",
+    "redux-thunk": "^2.0.1",
+    "starwars-names": "^1.6.0"
+  },
+  "devDependencies": {
+    "babel-loader": "^6.2.1",
+    "babel-plugin-syntax-decorators": "^6.3.13",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "babel-preset-stage-1": "^6.3.13",
+    "cross-env": "^3.1.3",
+    "express": "^4.13.4",
+    "json-loader": "^0.5.4",
+    "webpack": "^1.13.1"
+  }
+}

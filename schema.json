@@ -1,0 +1,51 @@
+{
+    "room-metadata": {
+        "$roomId": {
+            "ownerId": "",
+            "id": "",
+            "name": "",
+            "private": "",
+            "createdAt": "",
+            "users": {
+
+            }
+        }
+    },
+    "room-messages": {
+        "$roomId": {
+            "msgId": {
+                "userId": "",
+                "name": "",
+                "message": "",
+                "timestamp": ""
+            }
+        }
+    },
+    "room-users": {
+        "$roomId": {
+            "$userId": {
+                "id": "",
+                "name": "",
+                "sessions": {
+
+                }
+            }
+        }
+    },
+    "users": {
+        "$userId": {
+            "id": "",
+            "name": "",
+            "rooms": {},
+            "invites": {},
+            "notifications": {}
+        }
+    },
+    "presence": {
+        "$userId": {
+            "$sessionId": {
+
+            }
+        }
+    }
+}
